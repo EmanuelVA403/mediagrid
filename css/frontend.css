@@ -1,0 +1,60 @@
+
+div.fp_sc_div {
+	display: inline !important;
+	margin: 0 !important;
+	padding: 0 !important; 	
+}
+.fp_demo h2 {font-size: 28px !important;	
+					line-height: 40px !important;	
+					
+				color: #7fc241 !important;}
+	.fp_demo h3 {
+		font-family: "Blokletters Balpen Balpen" !important;
+			font-size: 13px !important;
+			line-height: 23px !important;
+			color: #222222 !important;}
+	.fp_demo address {
+		font-family: "Lato" !important;
+			font-size: 16px !important;
+			line-height: 25px !important;
+			color: #383838 !important;}
+	.fp_demo address strong {
+		font-family: "Seaweed Script" !important;
+			font-size: 18px !important;
+			line-height: 35px !important;
+			color: #555555 !important;}
+	.h-landmark, .entry-title.h-landmark {
+		font-family: "Noto Sans" !important;
+			color: #000000 !important;}
+	#home_feat_inner h1, #home_feat_inner h2 {
+		font-family: "Noto Sans" !important;}
+@font-face {
+	font-family: 'Blokletters Balpen Balpen';
+	src: url('//www.lcweb.it/wp-content/plugins/fontpress/fonts/Blokletters_Balpen_Balpen/blokletters-balpen-webfont.eot');
+	src: url('//www.lcweb.it/wp-content/plugins/fontpress/fonts/Blokletters_Balpen_Balpen/blokletters-balpen-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('//www.lcweb.it/wp-content/plugins/fontpress/fonts/Blokletters_Balpen_Balpen/blokletters-balpen-webfont.woff') format('woff'),
+		 url('//www.lcweb.it/wp-content/plugins/fontpress/fonts/Blokletters_Balpen_Balpen/blokletters-balpen-webfont.ttf') format('truetype'),
+		 url('//www.lcweb.it/wp-content/plugins/fontpress/fonts/Blokletters_Balpen_Balpen/blokletters-balpen-webfont.svg#blokletters-balpen-webfont') format('svg');
+}
+	
+font.fp_ff_Blokletters_Balpen_Balpen, font.fp_ff_Blokletters_Balpen_Balpen * {
+	font-family: "Blokletters Balpen Balpen";
+}
+font.fp_wf_Lato, font.fp_wf_Lato * {
+	font-family: "Lato";
+}
+font.fp_wf_Marck_Script, font.fp_wf_Marck_Script * {
+	font-family: "Marck Script";
+}
+font.fp_wf_Noto_Sans, font.fp_wf_Noto_Sans * {
+	font-family: "Noto Sans";
+}
+font.fp_wf_Seaweed_Script, font.fp_wf_Seaweed_Script * {
+	font-family: "Seaweed Script";
+}.fp_preview_box h2 {
+   margin: 0 0 10px;
+}
+
+.fp_preview_box h3 {
+   margin: 5px 0 10px;
+}
