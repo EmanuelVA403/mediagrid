@@ -15,16 +15,13 @@ if ( isset($_GET['m']) ){
 		case "clientes":
 			$paginaPHP = "php/clientes.php";
 		break;
-		case "resultadosBusqueda":
+		case "resultados":
+			/*$paginaPHP = "php/consulta.php";*/
+			$paginaPHP = "php/imagenes.php";
+		break;
+		case "consulta":
 			$paginaPHP = "php/consulta.php";
 		break;
-		case "clientesAgregar":
-			$paginaPHP = "php/clientesAgregar.php";
-		break;
-		case "clientesEditar":
-			$paginaPHP = "php/clientesEditar.php";
-		break;
-
 	}
 } else {
 	$paginaPHP = "php/index.php";
@@ -41,12 +38,16 @@ $errorMsg = "";
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <link href="css/dropzone.css" rel="stylesheet">
 <link href="css/fonts/fontawesome-webfont.ttf">
+<link href="css/fonts/lcweb-media.ttf">
+<link href="css/fonts/font-awesome.woff">
+<link href="css/fonts/lcweb-media.woff ">
+<link href="css/fonts/font-awesome.ttf">
 <link href="css/fonts/fontawesome-webfont.ttf">
-<link href="css/fonts/fontawesome-webfont.ttf">
-<link href="css/fonts/fontawesome-webfont.ttf">
-<link href="css/fonts/fontawesome-webfont.ttf">
-<link href="css/fonts/fontawesome-webfont.ttf">
-
+<style>
+#btn-up{
+	background-color: #65BD77;
+}
+</style>
 
 
 
@@ -56,6 +57,7 @@ $errorMsg = "";
 <link rel="stylesheet" href="css/app.v1.css" type="text/css" />
 <link rel="stylesheet" href="js/fuelux.css" type="text/css">
 <script src="js/app.v1.js"></script>
+
 <!--[if lt IE 9]>
 <script src="js/ie/html5shiv.js"></script>
 <script src="js/ie/respond.min.js"></script>
@@ -65,19 +67,12 @@ $errorMsg = "";
 <body class="">
 	<section class="vbox">
 		<header class="bg-black dk header navbar navbar-fixed-top-xs">
+
+
+
 			<div class="navbar-header aside-md">
 				<a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html"> <i class="fa fa-bars"></i> </a>
 				<a href="#" class="navbar-brand" data-toggle="fullscreen">Media Grid</a>
-<!-- 
-				<div class="row wrapper">
-					<div class="col-sm-9 m-b-xs">
-					</div>
-					<div class="col-sm-3">
-						<div class="input-group">
-							<input type="text" class="input-sm form-control" placeholder="Buscar"> <span class="input-group-btn"> <button class="btn btn-sm btn-default" type="button"> <i class="fa fa-search"></i> </button> </span>
-						</div>
-					</div>
-				</div> -->
 
 				<a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user"> <i class="fa fa-cog"></i> </a>
 			</div>
@@ -90,33 +85,28 @@ $errorMsg = "";
 					</ul>
 				</li>
 			</ul>
+
+				<div class="row wrapper">
+			      <div class="col-xs-6 col-sm-4 col-md-5 col-lg-6 ">
+			        <div class="input-group">
+			          <input type="text" class="input-sm form-control" placeholder="Buscar">
+			          <span class="input-group-btn"> 
+			            <button class="btn btn-sm btn-default" type="button" href="#"> <i class="fa fa-search"></i> </button>
+			          </span>
+			        </div>
+			      </div>
+			      <div class="col-xs-6 col-sm-4 col-md-3 ">
+			      	<button  id="btn-up" class="btn btn-sm btn-default" id="btn-1" href="#btn-1" data-toggle="class:btn-success"> 
+			      		<i class="fa fa-upload text"></i> <span class="text">&nbsp; Upload</span> 
+			      		<i class="fa fa-check text-active"></i> <span class="text-active">&nbsp; Success</span> 
+			      	</button>
+			      </div>
+			    </div> 
+
 		</header>
 		<section>
 			<section class="hbox stretch">
-				<!-- .aside -->
-				<aside class="bg-black lter aside-md hidden-print hidden-xs" id="nav">
-					<section class="vbox">
-						<section class="w-f scrollable">
-							<div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
-								<!-- nav -->
-								<nav class="nav-primary hidden-xs">
-									<ul class="nav">
-										<li> <a href="admin.php?m=resultadosBusqueda"> <i class="fa fa-angle-right"></i> <span>modulo 1</span> </a> </li>
-										<li class="">
-											<a href="#webpage" class=""><i class="fa fa-angle-right icon"></i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>Configuracion</span> </a>
-											<ul class="nav lt" style="display: none;">
-												<li> <a href="admin.php?m=blog"> <i class="fa fa-angle-right"></i> <span>Usuarios</span> </a> </li>
-												<li> <a href="admin.php?m=blog"> <i class="fa fa-angle-right"></i> <span>Clientes</span> </a> </li>
-											</ul>
-										</li>
-									</ul>
-								</nav>
-								<!-- / nav -->
-							</div>
-						</section>
-					</section>
-				</aside>
-				<!-- /.aside -->
+
 				<section id="content">
 					<section class="vbox">
 						<!--<header class="header bg-white b-b b-light"> <p>Layout with black color</p> </header>-->
@@ -138,9 +128,9 @@ $errorMsg = "";
 	<script src="js/dropzone.min.js"></script>
 	<!--Summernote [ OPTIONAL ]-->
 	<script src="js/summernote.min.js"></script>
-	<script src="js/app.v1.js"></script>
+	<!--<script src="js/app.v1.js"></script>-->
 	<script src="js/fuelux.js"></script>
 	<script src="js/parsley.min.js"></script>
-	<script src="js/app.plugin.js"></script>
+	<!--<script src="js/app.plugin.js"></script>-->
 </body>
 </html>

@@ -1,8 +1,4 @@
 
-@import url("//www.lcweb.it/wp-content/plugins/media-grid/css/frontend.css");
-
-@import url("//www.lcweb.it/wp-content/plugins/media-grid/js/jquery.galleria/themes/mediagrid/galleria.mediagrid.css");
-@import url("//www.lcweb.it/wp-content/plugins/media-grid/js/jPlayer/skin/media.grid/jplayer.media.grid.css");
 
 .mg_loader div {
 	background-color: #7fc241;
