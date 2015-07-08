@@ -329,37 +329,41 @@ font-weight:700;
                 <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
             </div>
         </div>
-    </div>
+     </div>
 
-    <div class="Image_Wrapper" style=" margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" style="width: 240px; height: 240px;"></a>
-    </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
 
-    <div class="Image_Wrapper" data-caption="This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it" style=
-    "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/320x300/E0E4CC/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/320x300/E0E4CC/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/320x300/E0E4CC/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+     </div>
 
-    <div class="Image_Wrapper" data-caption=
-    "This is some data &lt;u&gt;with&lt;/u&gt;html in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it"
-    style="margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/472x500/F38630/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
-
-    <div class="Image_Wrapper" style="margin-bottom: 10px; margin-right: 0px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/540x360/FA6900/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
-
-    <div class="Image_Wrapper" style=
-    " margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/800x600/ECD078/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
-
-    <div class="Image_Wrapper" style="margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" style="width: 240px; height: 240px;" ></a>
-    </div>
-
-<div class="item">
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/540x360/FA6900/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/540x360/FA6900/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
+        <div class="item">
         <div class="Image_Wrapper show-image" style=
         "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
             <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" style="width: 240px; height: 240px;">
@@ -368,35 +372,73 @@ font-weight:700;
                 <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
             </div>
         </div>
-    </div>
+      </div>
 
-    <div class="Image_Wrapper" style=" margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" style="width: 240px; height: 240px;"></a>
-    </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
 
-    <div class="Image_Wrapper" data-caption="This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it" style=
-    "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/320x300/E0E4CC/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/320x300/E0E4CC/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/320x300/E0E4CC/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
 
-    <div class="Image_Wrapper" data-caption=
-    "This is some data &lt;u&gt;with&lt;/u&gt;html in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it"
-    style="margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/472x500/F38630/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
+     <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/540x360/FA6900/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/540x360/FA6900/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+     </div>
+     <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
 
-    <div class="Image_Wrapper" style="margin-bottom: 10px; margin-right: 0px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/540x360/FA6900/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
 
-    <div class="Image_Wrapper" style=
-    " margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/800x600/ECD078/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
+     <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/320x300/E0E4CC/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/320x300/E0E4CC/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
 
-    <div class="Image_Wrapper" style="margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" style="width: 240px; height: 240px;" ></a>
-    </div>
     <div class="item">
         <div class="Image_Wrapper show-image" style=
         "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
@@ -406,36 +448,169 @@ font-weight:700;
                 <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
             </div>
         </div>
-    </div>
+     </div>
 
-    <div class="Image_Wrapper" style=" margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" style="width: 240px; height: 240px;"></a>
-    </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
 
-    <div class="Image_Wrapper" data-caption="This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it" style=
-    "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/320x300/E0E4CC/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/320x300/E0E4CC/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/320x300/E0E4CC/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+     </div>
 
-    <div class="Image_Wrapper" data-caption=
-    "This is some data &lt;u&gt;with&lt;/u&gt;html in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it This is some data &lt;u&gt;with&lt;/u&gt;html in it. Also a really long sentence with a &lt;a href='http://www.bbc.co.uk'&gt;link&lt;/a&gt; in it"
-    style="margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/472x500/F38630/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/540x360/FA6900/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/540x360/FA6900/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
+        <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
 
-    <div class="Image_Wrapper" style="margin-bottom: 10px; margin-right: 0px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/540x360/FA6900/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
 
-    <div class="Image_Wrapper" style=
-    " margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://placehold.it/800x600/ECD078/ffffff" style="width: 240px; height: 240px;"></a>
-    </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/320x300/E0E4CC/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/320x300/E0E4CC/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
 
-    <div class="Image_Wrapper" style="margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;">
-        <a><img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" style="width: 240px; height: 240px;" ></a>
+     <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/540x360/FA6900/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/540x360/FA6900/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+     </div>
+     <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
+
+     <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/320x300/E0E4CC/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/320x300/E0E4CC/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
+     <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/540x360/FA6900/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/540x360/FA6900/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/240x192_97_1_c_FFFFFF_5f41517feab159cc22f52d5e69acb5c0.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://www.lcweb.it/wp-content/uploads/ewpt_cache/320x192_97_1_r_FFFFFF_329a633f9bac8009d39edaa9e5f1a226.jpg" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/320x300/E0E4CC/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/320x300/E0E4CC/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="Image_Wrapper show-image" style=
+        "margin-bottom: 10px; margin-right: 10px; display: inline-block; vertical-align: bottom; overflow: hidden; opacity: 1;" \>
+            <img src="http://placehold.it/540x360/FA6900/ffffff" style="width: 240px; height: 240px;">
+            <div class="botonesImage" >
+                <a class="linkDown" target="_blank" href="http://placehold.it/540x360/FA6900/ffffff" ><i class="fa fa-download"></i></a>
+                <a class="linkPlus" data-toggle="modal" href="#modal-form" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+      </div>
     </div>
-</div>
 
 
 

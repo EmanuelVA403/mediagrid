@@ -154,16 +154,17 @@
                      * then we'll force them to make one anyway
                      *
                      */
-                   /* if ( settings.images.length-1 == index && elements.length != 0){
-                        resizeRow(elements, row, settings, rownum);
+                    if ( settings.images.length-1 == index && elements.length != 0){
+                        /*resizeRow(elements, row, settings, rownum);*/
 
+                        resizeLastRow(elements, row, settings, rownum);
                         // reset our row
                         delete row;
                         delete elements;
                         row         = 0;
                         elements    = [];
                         rownum      += 1;
-                    }*/
+                    }
                 }
             );
 
@@ -340,6 +341,144 @@
             params["h"] = (parseFloat($img.css("border-top-width")) + parseFloat($img.css("border-bottom-width")));
             return params;
         }
+
+
+
+
+
+
+
+
+
+function resizeLastRow( obj, row, settings, rownum) {
+
+            /*
+             *
+             * How much bigger is this row than the available space?
+             * At this point we have adjusted the images height to fit our target height
+             * so the image size will already be different from the original.
+             * The resizing we're doing here is to adjust it to the album width.
+             *
+             * We also need to change the album width (basically available space) by
+             * the amount of padding and css borders for the images otherwise
+             * this will skew the result.
+             *
+             * This is because padding and borders remain at a fixed size and we only
+             * need to scale the images.
+             *
+             */
+            var imageExtras         = (settings.padding * (obj.length - 1)) + (obj.length * obj[0][3]),
+                albumWidthAdjusted  = settings.albumWidth - imageExtras,
+                overPercent         = albumWidthAdjusted / (row - imageExtras),
+                // start tracking our width with know values that will make up the total width
+                // like borders and padding
+                trackWidth          = imageExtras;
+
+
+
+            /*
+             * Resize the images by the above % so that they'll fit in the album space
+             */
+            for (var i = 0; i < obj.length; i++) {
+
+
+                var $obj        = $(obj[i][0]),
+                    fw          = Math.floor(obj[i][1] * overPercent),
+                    fh          = Math.floor(obj[i][2] * overPercent),
+                // if the element is the last in the row,
+                // don't apply right hand padding (this is our flag for later)
+                    isNotLast   = !!(( i < obj.length - 1 ));
+
+
+                /*
+                 *
+                 * Because we use % to calculate the widths, it's possible that they are
+                 * a few pixels out in which case we need to track this and adjust the
+                 * last image accordingly
+                 *
+                 */
+                trackWidth += fw;
+
+
+                /*
+                 *
+                 * here we check if the combined images are exactly the width
+                 * of the parent. If not then we add a few pixels on to make
+                 * up the difference.
+                 *
+                 * This will alter the aspect ratio of the image slightly, but
+                 * by a noticable amount.
+                 *
+                 */
+                if(!isNotLast && trackWidth < settings.albumWidth){
+                    fw = fw + (settings.albumWidth - trackWidth);
+                }
+
+
+                /*
+                 *
+                 * Set the width of the image and parent element
+                 * if the resized element is not an image, we apply it to the child image also
+                 *
+                 * We need to check if it's an image as the css borders are only measured on
+                 * images. If the parent is a div, we need make the contained image smaller
+                 * to accommodate the css image borders.
+                 *
+                 */
+                if( $obj.is("img") ){
+                    $obj.width(fw);
+                }else{
+                    $obj.width(fw + obj[i][3]);
+                    $obj.find("img").width(fw);
+                }
+
+
+                /*
+                 *
+                 * Set the height of the image
+                 * if the resized element is not an image, we apply it to the child image also
+                 *
+                 */
+                if( $obj.is("img") ){
+                    $obj.height(fh);
+                }else{
+                    $obj.height(fh + obj[i][4]);
+                    $obj.find("img").height(fh);
+                }
+
+
+                /*
+                 *
+                 * Apply the css extras like padding
+                 *
+                 */
+                applyModifications($obj, isNotLast, settings);
+
+
+                /*
+                 *
+                 * Assign the effect to show the image
+                 * Default effect is using jquery and not CSS3 to support more browsers
+                 *
+                 */
+                if( settings.effect == 'default'){
+                    $obj.animate({opacity: '1'},{duration: settings.fadeSpeed});
+                } else {
+                    if(settings.direction == 'vertical'){
+                        var sequence = (rownum <= 10  ? rownum : 10);
+                    } else {
+                        var sequence = (i <= 9  ? i+1 : 10);
+                    }
+
+                    $obj.addClass(settings.effect);
+                    $obj.addClass("effect-duration-" + sequence);
+                }
+            }
+        }
+
+
+
+
 
     };
 })( jQuery );
