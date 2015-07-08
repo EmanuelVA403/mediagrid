@@ -86,7 +86,7 @@ $errorMsg = "";
 				</li>
 			</ul>
 
-				<div class="row wrapper">
+				<!-- <div class="row wrapper">
 			      <div class="col-xs-6 col-sm-4 col-md-5 col-lg-6 ">
 			        <div class="input-group">
 			          <input type="text" class="input-sm form-control" placeholder="Buscar">
@@ -101,7 +101,29 @@ $errorMsg = "";
 			      		<i class="fa fa-check text-active"></i> <span class="text-active">&nbsp; Success</span> 
 			      	</button>
 			      </div>
-			    </div> 
+			    </div>  -->
+
+
+			    <div class="row wrapper">
+					<div class="col-xs-12" >
+			        <div class="input-group">
+			          <input type="text" class="input-sm form-control" placeholder="Buscar">
+			          <br>
+			          <span class="input-group-btn"> 
+			            <button class="btn btn-sm btn-default" type="button" href="#"> <i class="fa fa-search"></i> </button>
+			            <!-- <a href="admin.php?m=subir" class="pull-left btn btn-sm btn-success"><i class="fa fa-upload"></i> Subir</a> -->
+
+
+
+			            <button id="btn-up" class="btn btn-sm btn-default" href="#btn-1" data-toggle="class:btn-success"> 
+			      		<i class="fa fa-upload text"></i> <span class="text">&nbsp; Upload</span> 
+			      		<i class="fa fa-check text-active"></i> <span class="text-active">&nbsp; Success</span> 
+			      	</button>
+			          </span>
+			        </div>
+			      </div>
+
+			   </div>
 
 		</header>
 		<section>
@@ -111,6 +133,11 @@ $errorMsg = "";
 					<section class="vbox">
 						<!--<header class="header bg-white b-b b-light"> <p>Layout with black color</p> </header>-->
 						<section class="scrollable wrapper w-f">
+							<br>
+							<br>
+							<br>
+							<br>
+							<br>
 							<?php include $paginaPHP; ?>
 						</section>
 						<footer class="footer bg-white b-t b-light text-right">

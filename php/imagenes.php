@@ -4,14 +4,7 @@
 <title>jQuery collagePlus Example</title>
 
 
-
-
-
-<!-- <link rel="stylesheet" href="css/consultapure.css" type="text/css" /> -->
-<!-- <link rel="stylesheet" href="css/custom.css" type="text/css" /> -->
 <link rel="stylesheet" href="css/frontend.css" type="text/css" />
-<!-- <link rel="stylesheet" href="css/galleria.mediagrid.css" type="text/css" />
-<link rel="stylesheet" href="css/jplayer.media.grid.css" type="text/css" /> -->
 
 
 <style type="text/css" media="all">
@@ -31,7 +24,6 @@ color: #09f;
 text-decoration: none;
 }
 .Collage {
-/*This is where you set the padding you want between the images*/
 padding: 10px;
 }
 .Collage img {
@@ -40,12 +32,10 @@ padding: 0;
 display: inline-block;
 vertical-align: bottom;
 opacity: 1;
-/*This is where you set the border you want for the image*/
 border: 6px solid #FFF;
 }
-/* In this example, this is the main item being resized */
+
 .Image_Wrapper {
-/* to get the fade in effect, set opacity to 0 on the first element within the gallery area */
 opacity: 0;
 -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -76,11 +66,7 @@ padding: 20px;
 
 <style>
 div.show-image img{
-/*    -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;*/
+
 width: 100%
 }
 
@@ -234,9 +220,7 @@ font-weight:700;
      
     var resizeTimer = null;
     $(window).bind('resize', function() {
-        // hide all the images until we resize them
-        /*$('.Collage .Image_Wrapper').css("opacity", 0);*/
-        // set a timer to re-apply the plugin
+
         if (resizeTimer) clearTimeout(resizeTimer);
         resizeTimer = setTimeout(collage, 200);
     });
@@ -303,21 +287,6 @@ font-weight:700;
             </div><!-- /.modal-content --> 
           </div><!-- /.modal-dialog -->
 
-
-<!-- <div class="row wrapper">
-      <div class="col-sm-3">
-      </div>
-      <div class="col-sm-6">
-        <div class="input-group">
-          <input type="text" class="input form-control" placeholder="Buscar">
-          <span class="input-group-btn"> 
-            <button class="btn btn btn-default" type="button"> <i class="fa fa-search"></i> </button>
-          </span>
-        </div>
-      </div>
-      <div class="col-sm-3">
-      </div>
-    </div> -->
 
 <div class="Collage">
     <div class="item">
