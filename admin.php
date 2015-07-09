@@ -12,8 +12,8 @@ if ( isset($_GET['m']) ){
 	switch($_GET['m']) {
 
 		/* clientes */
-		case "clientes":
-			$paginaPHP = "php/clientes.php";
+		case "upload":
+			$paginaPHP = "php/upload.php";
 		break;
 		case "resultados":
 			/*$paginaPHP = "php/consulta.php";*/
